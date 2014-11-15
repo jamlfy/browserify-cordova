@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<image>
+	<read filename="%[icon]" />
+
+	<resize width="96" height="96" />
+	<write filename="%[out]/icon-96x96.png" />
+
+	<resize width="72" height="72" />
+	<write filename="%[out]/icon-72x72.png" />
+
+	<resize width="48" height="48" />
+	<write filename="%[out]/icon-48x48.png" />
+
+	<resize width="40" height="40" />
+	<write filename="%[out]/icon-40x40.png" />
+
+	<resize width="36" height="36" />
+	<write filename="%[out]/icon-36x36.png" />
+
+</image>

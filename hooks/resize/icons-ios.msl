@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<image>
+	<read filename="%[icon]" />
+
+	<resize width="152" height="152" />
+	<write filename="%[out]/icon-152x152.png" />
+
+	<resize width="144" height="144" />
+	<write filename="%[out]/icon-144x144.png" />
+
+	<resize width="120" height="120" />
+	<write filename="%[out]/icon-120x120.png" />
+
+	<resize width="114" height="114" />
+	<write filename="%[out]/icon-114x114.png" />
+
+	<resize width="100" height="100" />
+	<write filename="%[out]/icon-100x100.png" />
+
+	<resize width="80" height="80" />
+	<write filename="%[out]/icon-80x80.png" />
+
+	<resize width="76" height="76" />
+	<write filename="%[out]/icon-76x76.png" />
+
+	<resize width="72" height="72" />
+	<write filename="%[out]/icon-72x72.png" />
+
+	<resize width="60" height="60" />
+	<write filename="%[out]/icon-60x60.png" />
+
+	<resize width="58" height="58" />
+	<write filename="%[out]/icon-58x58.png" />
+
+	<resize width="57" height="57" />
+	<write filename="%[out]/icon-57x57.png" />
+
+	<resize width="50" height="50" />
+	<write filename="%[out]/icon-50x50.png" />
+
+	<resize width="40" height="40" />
+	<write filename="%[out]/icon-40x40.png" />
+
+	<resize width="29" height="29" />
+	<write filename="%[out]/icon-29x29.png" />
+	
+</image>

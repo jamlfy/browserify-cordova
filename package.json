@@ -1,0 +1,24 @@
+{
+  "name": "NameYourApp",
+  "version": "0.0.0",
+  "description": "Description",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": true,
+  "author": "AlejoNext",
+  "license": "MIT",
+  "browserify": {
+    "transform": [
+      "syntactical",
+      "brfs"
+    ]
+  },
+  "devDependencies": {
+    "xml2js" : "*",
+    "browserify": "~4.1.8",
+    "cordova": "~3.5.0-0.2.4"
+  },
+  "browser": {
+  }
+}

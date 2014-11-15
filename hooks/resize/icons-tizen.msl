@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<image>
+	<read filename="%[icon]" />
+
+	<resize width="128" height="128" />
+	<write filename="%[out]/icon-128x128.png" />
+
+</image>

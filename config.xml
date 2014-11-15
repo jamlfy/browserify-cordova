@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="org.apache.cordova.example" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+	<name>Example App</name>
+	<description>
+	   A sample Apache Cordova application that responds to the deviceready event.
+	</description>
+	<author email="dev@cordova.apache.org" href="http://cordova.io">
+		Apache Cordova Team
+	</author>
+	
+	<task name="NameTheComandan" NamePlatform="TheArgument" />
+	<icon src="YourLogo.png" />
+	<splash land="YourSplashLand.png" prot="YourSplashPort.png" />
+
+	<access origin="*" />
+	<content src="index.html" />
+
+	<platform name="android">
+		<icon src="res/icon-96x96.png"/>
+		<icon density="ldpi"  src="res/icon-36x36.png"/>
+		<icon density="mdpi"  src="res/icon-48x48.png"/>
+		<icon density="hdpi"  src="res/icon-72x72.png"/>
+		<icon density="xhdpi" src="res/icon-96x96.png"/>
+
+		<splash density="land-hdpi"  src="res/splash-land-800×480.png" />
+		<splash density="land-ldpi"  src="res/splash-land-320×200.png" />
+		<splash density="land-mdpi"  src="res/splash-land-480×320.png" />
+		<splash density="land-xhdpi" src="res/splash-land-1280×720.png"/>
+
+		<splash density="port-hdpi"  src="res/splash-port-480x800.png" />
+		<splash density="port-ldpi"  src="res/splash-port-200x320.png" />
+		<splash density="port-mdpi"  src="res/splash-port-320x480.png" />
+		<splash density="port-xhdpi" src="res/splash-port-1720x280.png"/>
+	</platform>
+	<platform name="ios">
+		<icon width="29"  height="29"  src="res/icon-29x29.png"  />
+		<icon width="40"  height="40"  src="res/icon-40x40.png"  />
+		<icon width="50"  height="50"  src="res/icon-50x50.png"  />
+		<icon width="57"  height="57"  src="res/icon-57x57.png"  />
+		<icon width="58"  height="58"  src="res/icon-58x58.png"  />
+		<icon width="60"  height="60"  src="res/icon-60x60.png"  />
+		<icon width="72"  height="72"  src="res/icon-72x72.png"  />
+		<icon width="76"  height="76"  src="res/icon-76x76.png"  />
+		<icon width="80"  height="80"  src="res/icon-80x80.png"  />
+		<icon width="100" height="100" src="res/icon-100x100.png"/>
+		<icon width="114" height="114" src="res/icon-114x114.png"/>
+		<icon width="120" height="120" src="res/icon-120x120.png"/>
+		<icon width="144" height="144" src="res/icon-144x144.png"/>
+		<icon width="152" height="152" src="res/icon-152x152.png"/>
+	</platform>
+	<platform name="firefoxos">
+		<icon width="60"  height="60"  src="res/icon-60x60.png"  />
+		<icon width="128" height="128" src="res/icon-128x128.png"/>
+	</platform>
+	<platform name="blackberry10">
+		<icon src="res/icon-86x86.png" />
+		<icon src="res/icon-150x150.png" />
+	</platform>
+
+</widget>
